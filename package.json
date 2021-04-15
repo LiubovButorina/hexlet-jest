@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "npx jest --bail"
+    "test": "npx -n '--experimental-vm-modules' jest"
   },
   "author": "",
   "license": "ISC",
